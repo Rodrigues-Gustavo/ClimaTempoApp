@@ -6,12 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClimaTempoApp</title>
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="themeToggleBtn.css">
     <link rel="stylesheet" href="src/css/searchbtn.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="main">
+        <div class="header">
+            <h1>ClimaApp</h1>
+            <div class="wrapper">
+                <input type="checkbox" id="hide-checkbox">
+                <label for="hide-checkbox" class="toggle">
+                <span class="toggle-button">
+                    <span class="crater crater-1"></span>
+                    <span class="crater crater-2"></span>
+                    <span class="crater crater-3"></span>   
+                    <span class="crater crater-4"></span>
+                    <span class="crater crater-5"></span>
+                    <span class="crater crater-6"></span>
+                    <span class="crater crater-7"></span>
+                </span>
+                <span class="star star-1"></span>
+                <span class="star star-2"></span>
+                <span class="star star-3"></span>
+                <span class="star star-4"></span>
+                <span class="star star-5"></span>
+                <span class="star star-6"></span>
+                <span class="star star-7"></span>
+                <span class="star star-8"></span>
+                </label>
+            </div>
+        </div>
+    </div>
     <form class="search">
         <input type="search" id="searchInput" placeholder="Digite uma cidade ou estado"/>
         <button>Buscar</button>
     </form>
+    <script src="src/scripts/ThemeToggleBtn.js"></script>
 </body>
 </html>
