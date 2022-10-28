@@ -3,7 +3,7 @@
 ### 🚧 o WebApp está em desenvolvimento. 🚧
 ### criado para estudos.
 
-### será desenvolvido nas seguintes tecnologias : HTML, CSS e JAVASCRIPT
+### está sendo desenvolvido nas seguintes tecnologias : HTML, CSS e JAVASCRIPT
 
 - Mobile first
 - tema claro e escuro
