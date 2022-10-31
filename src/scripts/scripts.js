@@ -1,4 +1,4 @@
-import  { search, searchInput, city, tempInfos, maxTemp, minTemp, feelsLike, humidity, windSpeed, atmosphericPressure, cloudIcon, windIcon, currentDescription, currentWeatherIcon, result } from './variables.js'
+import  { search, searchInput, city, tempInfos, maxTemp, minTemp, feelsLike, humidity, windSpeed, atmosphericPressure, cloudIcon, windIcon, currentDescription, currentWeatherIcon, result, countryFlags, apiCountryFlagsURL } from './variables.js'
 
 const html = document.querySelector('html');
 const checkbox =  document.querySelector('#hide-checkbox');
@@ -36,6 +36,7 @@ const showWeatherInfos = async (searchCity) => {
     cloudIcon.innerHTML = `${data.clouds.all}%`;
     windIcon.innerText = `${data.wind.speed} km/h`;
     currentWeatherIcon.setAttribute('src', `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
+    countryFlags.setAttribute("src" ,  apiCountryFlagsURL + data.sys.country);
     
     result.style.display = 'block';
 };
