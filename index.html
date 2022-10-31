@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="main">
+    <div>
         <div class="header">
             <h1>ClimaApp</h1>
             <div class="wrapper">
@@ -37,11 +37,41 @@
                 </label>
             </div>
         </div>
+        <form class="search">
+            <input type="search" id="searchInput" placeholder="Digite uma cidade ou estado"/>
+            <button>Buscar</button>
+        </form>
+        <div class="weatherAPP">
+            <div class="results">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="city"></span>
+                </h2>
+                <div class="main-temp">
+                    <div class="tempInfos"><span></span>&deg;C</div>
+                    <img class="currentWeatherIcon" src=""/>
+                    <div class="currentWeatherDescription">clima agora</div>
+                </div>
+                <div class="temp">
+                    <div class="maxTemp">temp max: <span></span>&deg;C</div>
+                    <div class="minTemp">temp minima: <span></span>&deg;C</div>
+                    <div class="feels-like">sensação térmica: <span></span>&deg;C</div>
+                    <div class="windSpeed">vento: <span>0.00 km/h</span></div>
+                    <div class="humidity">Umidade: <span>0%</span></div>
+                    <div class="atmosphericPressure">Pressão<br>atmosférica: <span>0000</span>%</div>
+                </div>
+                <div class="details">
+                    <div class="cloudIcon"><i class="fa-solid fa-cloud"></i> <span></span></div>
+                    <div class="windIcon"> <i class="fa-solid fa-wind"></i> <span></span></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <form class="search">
-        <input type="search" id="searchInput" placeholder="Digite uma cidade ou estado"/>
-        <button>Buscar</button>
-    </form>
-    <script src="src/scripts/scripts."></script>
+    
+    <footer>
+        <a href="https://www.linkedin.com/in/gusta-rodrigues" target="_blank">© Developed by Gustavo Rodrigues</a>
+    </footer>
+
+    <script type="module" src="src/scripts/scripts.js"></script>
 </body>
 </html>
