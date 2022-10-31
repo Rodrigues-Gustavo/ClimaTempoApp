@@ -370,6 +370,10 @@ p.morning {
     margin: 0.6rem;
 }
 
+#countryFlags {
+    height: 20px;
+}
+
 .currentWeatherDescription {
     color: white;
     font-weight: bold;
