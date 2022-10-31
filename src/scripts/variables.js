@@ -13,5 +13,8 @@ const windIcon = document.querySelector('.windIcon span');
 const currentDescription = document.querySelector('.currentWeatherDescription');
 const currentWeatherIcon = document.querySelector('.currentWeatherIcon');
 const result = document.querySelector('.results');
+const countryFlags = document.querySelector('#countryFlags');
+const apiCountryFlagsURL = "https://countryflagsapi.com/png/";
 
-export { search, searchInput, city, tempInfos, maxTemp, minTemp, feelsLike, humidity, windSpeed, atmosphericPressure, cloudIcon, windIcon, currentDescription, currentWeatherIcon, result }
+export { search, searchInput, city, tempInfos, maxTemp, minTemp, feelsLike, humidity, windSpeed, atmosphericPressure, cloudIcon, windIcon, currentDescription, currentWeatherIcon, result, countryFlags, apiCountryFlagsURL
+}
