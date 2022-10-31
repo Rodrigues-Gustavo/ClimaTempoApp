@@ -340,3 +340,88 @@ p.morning {
     background: #e67e22;
 }
 
+.weatherAPP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    display: none;
+    margin-top: 20px;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: var(--bg-color);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px; 
+}
+
+.results h2 {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0.6rem;
+}
+
+.currentWeatherDescription {
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.main-temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #fff; 
+}
+
+.tempInfos{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.temp {
+    color: white;
+    font-size: 23px;
+    width: 300px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.windIcon{
+    color: #fff;
+    margin: 15px; 
+}
+
+.cloudIcon {
+    color: white;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 15px;
+}
+
